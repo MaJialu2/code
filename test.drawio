@@ -1,0 +1,97 @@
+<mxfile host="65bd71144e">
+    <diagram id="HQ5CgxtLUwwWuNWUyAZb" name="第 1 页">
+        <mxGraphModel dx="1054" dy="714" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="&lt;font color=&quot;#000000&quot;&gt;渲染主线程&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;fontSize=20;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="115" y="159" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="265" y="159" width="589" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="4" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="5" target="29">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="331" y="256"/>
+                            <mxPoint x="23" y="256"/>
+                            <mxPoint x="27" y="489"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="&lt;font color=&quot;#000000&quot;&gt;计时开始&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D3E4FB;fontColor=#ffffff;strokeColor=#006EAF;fontSize=20;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="283" y="169.5" width="95" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#006EAF;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="265" y="275" width="589" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;font color=&quot;#000000&quot;&gt;任务&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D3E4FB;fontColor=#ffffff;strokeColor=#006EAF;fontSize=20;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="283" y="285.5" width="81" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font color=&quot;#000000&quot;&gt;任务&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D3E4FB;fontColor=#ffffff;strokeColor=#006EAF;fontSize=20;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="406" y="285.5" width="81" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=none;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="11" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;font color=&quot;#000000&quot;&gt;任务&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D3E4FB;fontColor=#ffffff;strokeColor=#006EAF;fontSize=20;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="523" y="285.5" width="81" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="edgeStyle=none;html=1;fontSize=20;fontColor=#000000;" edge="1" parent="1" source="12" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;font color=&quot;#000000&quot;&gt;任务&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D3E4FB;fontColor=#ffffff;strokeColor=#006EAF;fontSize=20;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="285.5" width="81" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;font color=&quot;#000000&quot;&gt;任务&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D3E4FB;fontColor=#ffffff;strokeColor=#006EAF;fontSize=20;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="757" y="285.5" width="81" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;font color=&quot;#000000&quot;&gt;消息队列&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#006EAF;fontSize=20;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="115" y="275" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;font color=&quot;#000000&quot;&gt;计时线程&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB366;fontColor=#ffffff;strokeColor=#006EAF;fontSize=20;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="115" y="459" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;①通知计时线程计时&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="91" y="226" width="162" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;font color=&quot;#000000&quot;&gt;阻塞&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;fontColor=#ffffff;strokeColor=#006EAF;fontSize=20;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="411" y="169.5" width="242" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontColor=#ffffff;strokeColor=#006EAF;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="269" y="459" width="589" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;font color=&quot;#000000&quot;&gt;计时开始&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D3E4FB;fontColor=#ffffff;strokeColor=#006EAF;fontSize=20;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="283" y="468" width="120" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="36" target="33">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="928" y="489"/>
+                            <mxPoint x="924" y="255"/>
+                            <mxPoint x="656" y="255"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="&lt;font color=&quot;#000000&quot;&gt;计时结束&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D3E4FB;fontColor=#ffffff;strokeColor=#006EAF;fontSize=20;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="620.5" y="469.5" width="120" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;font color=&quot;#000000&quot;&gt;计时中...&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFB366;fontColor=#ffffff;strokeColor=#006EAF;fontSize=20;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="419" y="468" width="185" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;②阻塞等待计时完成&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="430.5" y="119" width="162" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;③执行计时器回调&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="659" y="116" width="146" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;font color=&quot;#000000&quot;&gt;运行到期任务&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D3E4FB;fontColor=#ffffff;strokeColor=#006EAF;fontSize=20;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="675" y="169.5" width="126" height="39" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
