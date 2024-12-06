@@ -24,8 +24,12 @@ console.log(4);
 
 /**
  * 宏队列
- * 微队列 输出1
+ * 微队列 输出1 输出3 输出1
  * 输出
  * promise pending
- * 
+ * promise pending
+ * 4
+ * 1
+ * 3
+ * 1
  */
